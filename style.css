@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2711149.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: scroll;
+  line-height: 1.6rem;
+  background-color: #282A35;
+}
+nav {
+  background-color: rgb(131, 126, 126);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 25px;
+  color: white;
+}
+nav ul a:hover {
+  color: red;
+}
+
+.container1 h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 178px;
+  color: #fff;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.container1 h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 75px;
+  color: #fff;
+  font-family: "Baloo 2", cursive;
+}
+.container1 p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 42px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+.container2 {
+  width: 100%;
+  height: 50vh;
+  background-color: #252529;
+  margin-top: 310px;
+}
+.container2 h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+.container2 h3 {
+  text-align: center;
+  padding-top: 36px;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+.container2 p {
+  text-align: center;
+  /* padding-top: 20px;
+    margin-top: 15px; */
+  font-size: 1.3rem;
+  color: #fff;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.container2 .btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.container2 .btn h3 {
+  background-color: #8a0808;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  border-radius: 2%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.container2 .btn h3:hover {
+  background-color: red;
+}
+.container2 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+.container3 {
+  width: 100%;
+  height: 200vh;
+  background-color: #252529;
+  margin-top: 310px;
+}
+.container3 h3 {
+  text-align: center;
+  padding-top: 271px;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+.container3 p {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #fff;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+.container3 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.container3 .btn h3 {
+  background-color: #120bd5;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  border-radius: 2%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.container3 .btn h3:hover {
+  background-color: #0e025a;
+}
+.container3 img {
+  /* background-color: #fff; */
+  width: 65%;
+  height: 60%;
+  margin-left: 15%;
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+.container4 {
+  background: url("https://cdn.wallpapersafari.com/22/58/M15vbf.jpg") no-repeat
+    bottom/ cover;
+  padding: 2rem 0;
+}
+.container4 h3 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+.container4 p {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #fff;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+.container .row {
+  width: 100%;
+}
+footer {
+  background-color: #090101;
+  color: rgb(244, 238, 238);
+}
+footer small h3 {
+  text-align: center;
+}
+
+/* media query */
+/* @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  @media screen and (min-width: 370px) {
+    nav ul a {width: 70px; float: left;}
+    nav ul a {margin-left: 16px;}
+  }
+  
+  @media screen and (max-width: 480px) {
+    nav ul a {
+      float: none;
+      width: 100%;
+    }
+  } */
